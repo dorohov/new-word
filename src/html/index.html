@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body class="is--index-page"> 
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/navbar.html"
+			navbar_prefix="navbar__"
+			navbar_mod="is--scroll  is--index"
+		]] 
+		[[azbntple 
+			tpl="/src/block/site/page/carusel.html"
+		]]	
+		[[azbntple  
+			tpl="/src/block/site/page/index-adv.html"
+			content_prefix="content-block__"
+			content_mod="is--adv-index"
+			content_id=" "
+			block_heading_level="h2"
+		]]
+		[[azbntple  
+			tpl="/src/block/site/page/index-services.html"
+			content_prefix="content-block__"  
+			content_mod="is--services-index"
+			content_id=" "
+			content_bg=" "
+			block_heading_mod="is--index-heading"
+			block_heading_level="h2"
+			block_heading="Услуги нашей компании"
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/form/block.html" 
+			block_prefix="form-panel__"
+			block_mod="is--bg  is--form"
+			block_bg="  "
+			form_prefix="form__"
+			form_id="fscalc"
+			form_mod="is--calc" 
+			form_color=" "
+			form_heading="Подпишись на новости"
+			form_heading_small="Вы будете первым получать информацию  обо всех актуальных акциях и  узнавать о новых партиях поставки"
+			form_heading_mod="is--form-block"
+			form_btn_name="Отправить"
+			form_btn_mod="  is--block"
+		]]
+		[[azbntple  
+			tpl="/src/block/site/default/contacts/panel.html"
+			content_prefix="kontakty-panel__"       
+			content_mod="  "
+			content_id="contacts-block"  
+			block_heading_mod="is--index-contacts"
+			block_heading_level="h2"
+			block_heading="Контакты"  
+		]]		
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+		]]		
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+		[[azbntple tpl="/src/block/site/default/modals/include.html" ]]
+		[[azbntple tpl="/src/block/site/default/script/googleMap.html" ]]
+	</body>
+</html>

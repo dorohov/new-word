@@ -1,0 +1,26 @@
+<div class="{{block_prefix}}block">
+	<ol class="{{block_prefix}}list  {{block_mod}}">
+		<li class="pagination-panel__prew      ">
+			<a href="#" class="pagination-panel__prew      ">
+				[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="arrow" ]] 
+			</a>
+		</li>		
+		[[azbntple 
+			tpl="/src/block/site/default/pagination/item.html" 
+			pagin_prefix="pagination-panel__"
+			pagin_name="1 " 
+			pagin_mod="is--active {{block_mod}}" 
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/pagination/item.html" 
+			pagin_prefix="pagination-panel__"
+			pagin_name="2 " 
+			pagin_mod="  {{block_mod}}" 
+		]]
+		<li class="pagination-panel__next      ">
+			<a href="#" class="pagination-panel__hext">
+				[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="arrow" ]] 
+			</a>
+		</li>	
+	</ol>
+</div> 

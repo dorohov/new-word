@@ -1,0 +1,38 @@
+{
+	"contacts":{
+		"name":"ньюворд",
+		"domain":"окнастрой.москва",
+		"domain_link":"http://newword/",
+		"color":"#0460a2",
+		"agreement_page":" ",
+		"copyright":"ньюворд",
+		"email":"newwordan@gmail.ru",
+		"phone":" +7 (4862) <b>77-81-85</b>",  
+		"phone_tel":"+74862778185",   
+		"clock":"<p> </p>",  
+		"address":"г.Орел ул.4-я Курская д.2, офис 66"
+	},
+	"soc":{
+		"vk":"https://vk.com/",
+		"fb":"https://www.facebook.com/",
+		"ok":"https://ok.ru/group/",
+		"tw":"https://twitter.com/",
+		"inst":"https://www.instagram.com/"
+	},
+	"page":{
+		"index":"/",
+		"about":"/about.html",
+		"catalog":"/catalog.html",
+		"catalog_card":"/catalog-card.html",
+		"contacts":"/contacts.html",
+		"404":"/404.html",
+		"sitemap":"/sitemap.html",
+		"style":"/style.html"
+	},	                           
+	"url-path-css":"/css",
+	"url-path-img":"/img",
+	"url-path-js":"/js",
+	"url-path-plugins":"/plugins",
+	"url-path-favicon":"/favicon",
+	"url-path-docs":"/docs"
+}

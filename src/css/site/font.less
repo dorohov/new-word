@@ -1,0 +1,46 @@
+.include-custom-font(
+	@family: @font-text, 
+	@src-name: @font-text, 
+	@weight: normal, 
+	@style: normal
+	){
+	@font-face{			
+		font-family: "@{family}";			
+		src:	url('@{url-path-fonts}/@{src-name}.woff2') format('woff2'),
+				url('@{url-path-fonts}/@{src-name}.woff') format('woff');
+		font-weight: @weight;
+		font-style: @style;		
+	}
+}
+.include-custom-icon(@family: @icon, @weight: normal, @style: normal){
+	@font-face{			
+		font-family: "@{family}";			
+		src: url('@{url-path-fonts}/@{family}.woff') format('woff');
+		font-weight: @weight;
+		font-style: @style;		
+	}
+}
+.include-custom-font(
+	@family: @font-text,
+	@src-name: @font-text,
+	@weight: 400, 
+	@style: normal
+	);
+.include-custom-font(
+	@family: @font-text,
+	@src-name: @font-medium,
+	@weight: 500, 
+	@style: normal
+	);
+.include-custom-font(
+	@family: @font-text,
+	@src-name: @font-bold,
+	@weight: 700, 
+	@style: italic
+	);
+.include-custom-font(
+	@family: @font-text,
+	@src-name: @font-ex-bold,
+	@weight: 800, 
+	@style: normal
+	);
