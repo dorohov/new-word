@@ -1,12 +1,14 @@
 .btn-base(){
 	.heading5();
 	font-weight: 400;
-	padding: 21px 87px;
+	padding: 10px 20px;
+	margin: 0 18px 18px;
+	min-width: 196px;
 	font-size: @btn_fs;
 	line-height: @btn_lh;
 	border-radius: @btn_border_radius;
 	@media @media-point-screen {
-		padding: 20px 3vw;
+		padding: 21px 87px;
 	}
 }
 .btn-lg(){
@@ -59,6 +61,9 @@
     		top: 29%;
     		right: 0;
     		padding: 5px 16px;
+    		min-width:40px;
+    		border:none;
+    		margin:0;
 			//border-color: @btn_i_border_color;
 			&:hover{			
 				color: @white;
