@@ -1,0 +1,1 @@
+"use strict";$(function(){function o(){return $('.__dropdown_container:not(".is--dropC__active")').children(".__dropdown_box").slideUp(),$(".is--dropC__active").children(".__dropdown_box").slideDown(),!1}o(),$(".__dropdown_trig").on("click",function(){$(this).parent(".__dropdown_container").toggleClass("is--dropC__active");o()})});

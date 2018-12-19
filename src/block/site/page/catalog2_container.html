@@ -1,0 +1,33 @@
+<main class="{{content_prefix}}main {{content_mod}}">
+	<div class="{{content_prefix}}br">
+		[[azbntple 
+			tpl="/src/block/site/default/page-header/panel-bredcrumb.html"
+			block_prefix="page-header__" 
+			block_mod="{{block_heading_mod}}"
+			block_heading_level="{{block_heading_level}}"
+			block_heading="{{block_heading}}"
+		]]
+	</div>
+	<div class="{{content_prefix}}inner">
+		<div class="{{content_prefix}}aside">
+			[[azbntple 
+				tpl="/src/block/site/page/catalog_aside.html"
+				content_prefix="{{content_prefix}}aside__"
+			]]
+		</div>
+		<div class="{{content_prefix}}wrap">
+			<div class="{{content_prefix}}wrap__inner">
+				[[azbntple 
+					tpl="/src/block/site/default/page-header/catalog_header.html"
+					block_prefix="{{content_prefix}}title" 
+					block_heading="Диагностическое офтальмологическое оборудование"
+				]]
+				[[azbntple 
+					tpl="/src/block/site/page/catalog_categories.html"
+					block_prefix="{{content_prefix}}card__"
+					align_items="left"
+				]]
+			</div>	
+		</div>
+	</div>
+</main>

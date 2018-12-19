@@ -9,6 +9,10 @@ window.onerror = function(error, url, lineNumber, column, errorObj) {
 [[azbntple tpl="/src/block/bootstrap/js/bootstrap.js" ]]
 [[azbntple tpl="/src/block/fancybox3/js/fancybox.js" ]]
 [[azbntple tpl="/src/_/concat.plugin.js" ]]
+/*
+	Dropdown в каталоге
+	*/
+	// [[azbntple tpl="/src/js/catalog_dropdown.js" ]]
 
 
 $(function() {
@@ -65,7 +69,6 @@ $(function() {
 		$('body').trigger('fecss.window.unload', [event]);
 		return;//return false;
 	}
-	
 	
 	/*
 	Событие инициализации fecss
